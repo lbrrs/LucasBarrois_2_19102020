@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "raleway";
+    src: url("fonts/Raleway-Italic-VariableFont_wght.ttf");
+    src: url("fonts/Raleway-VariableFont_wght.ttf");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+html
+{
+    font-family: "raleway", Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+p
+{
+    font-style: italic;
+}
+
+#logo
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a
+{
+    outline: none;
+    text-decoration: none; 
+}
+a:link, a:visited
+{
+    color: black;
+}
+
+#menu1, #menu2, #menu3
+{
+    border-top: 2px solid white;
+    padding: 30px;
+}
+
+
+#menu1:hover, #menu2:hover
+{
+
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+
+i
+{
+    color: #0065FC;
+    background-color: #deebff;
+}
+
+section
+{
+    display: flex;
+}
+/* */
+article 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h2
+{
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box1
+{
+    width: auto;
+    border: 1px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+
+#box2
+{
+    width: 400px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+.images
+{
+    margin: 20px;
+    border: 5px white solid;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgb(160, 160, 160);
+}
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+}
+.minibox1
+{
+    margin: 25px;
+    border: 5px white solid;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgb(160, 160, 160);
+}
+
+.images1
+{
+    float: left;
+}
+
+#box3
+{
+    width: auto;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.images2
+{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgb(160, 160, 160);
+}
+
+.minibox2
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
