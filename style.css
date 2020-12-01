@@ -366,9 +366,14 @@ footer
         background-color: white;
     }
 
+    .images
+    {
+        max-width: 240px;
+    }
+
     .minibox1
     {
-        max-width: 350px;
+        max-width: 220px;
     }
 
     #box2:nth-child(2)
@@ -458,6 +463,7 @@ footer
 
     h2
     {
+        width: auto;
         margin-left: 20px;
     }
 
@@ -547,6 +553,7 @@ footer
     .images
     {
         margin: 10px;
+        max-width: 400px;
     }
 
     /* Box 2 */
@@ -575,11 +582,22 @@ footer
     {
         margin-top: 1px;
         max-height: 155px;
+        max-width: 400px;
     }
 
     .fa-chart-line
     {
         margin-right: 20px;
+    }
+
+    .images1
+    {
+        margin-right: 5px;
+    }
+
+    .imgMini
+    {
+        display: flex;
     }
 
     /* Box 3 */
