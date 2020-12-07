@@ -345,6 +345,20 @@ footer
 
 @media screen and (max-width: 1025px)
 {
+
+    /* Général */
+    
+    section
+    {
+        flex-wrap: wrap;
+    }
+
+    article
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     h2
     {
         font-size: 30px;
@@ -352,10 +366,14 @@ footer
         width: 100%;
     }
 
+    /* En-tête */
+
     #filtres li
     {
         margin-bottom: 10px;
     }
+
+    /* Box 1 */
 
     #box1:nth-child(1)
     {
@@ -375,6 +393,8 @@ footer
     {
         max-width: 220px;
     }
+
+    /* Box 2 */
 
     #box2:nth-child(2)
     {
@@ -404,23 +424,8 @@ footer
         width: 220px;
     }
 
-    section
-    {
-        flex-wrap: wrap;
-    }
+    /* Pied de page */
 
-    article
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
-/*
-    .imgQueries
-    {
-        max-height: 200px;
-        width: 100%;
-    }
-*/
     footer
     {
         display: flex;
@@ -465,6 +470,7 @@ footer
     {
         width: auto;
         margin-left: 20px;
+        font-size: 20px;
     }
 
     h4
@@ -508,6 +514,16 @@ footer
     #searchIcon
     {
         display: inline-block;
+        color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: #0065FC;
+        padding: 9px;
+    }
+
+    .fa-search
+    {
+        font-size: 14px;
     }
 
     #searchText
@@ -588,6 +604,7 @@ footer
     .fa-chart-line
     {
         margin-right: 20px;
+        margin-left: 70px;
     }
 
     .images1
