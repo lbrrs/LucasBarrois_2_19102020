@@ -53,56 +53,47 @@ h4
 
 /* En tete*/
 
-header
-{
+header{
     padding-bottom: 40px;
 }
 
-#topMenu
-{
+#topMenu{
     display: flex;
     justify-content: space-between;
 }
 
-#menu
-{
+#menu{
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-.itemMenu:hover a
-{
+.itemMenu:hover a{
     color: #0065FC;
 }
 
-.itemMenu, #menu3
-{
+.itemMenu, #menu3{
     border-top: 2px solid white;
     padding: 30px;
 }
 
-.itemMenu:hover 
-{
+.itemMenu:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
 
-#register
-{
+#register{
     color: #0065FC;
 }
 
-#recherche
-{
+#recherche{
     margin-top: 35px;
     margin-bottom: 15px;
     display: flex;
     justify-content: flex-start;
 }
 
-#icone
-{
+#icone{
     background-color: #f2f2f2;
     padding: 10px;
     padding-left: 15px;
@@ -113,14 +104,12 @@ header
     border-radius: 20px 0px 0px 20px;
 }
 
-#barre
-{
+#barre{
     height: 38px;
     border: none;
 }
 
-#searchText
-{
+#searchText{
     color: white;
     background-color: #0065FC;
     width: 100px;
@@ -129,8 +118,7 @@ header
     border-radius: 0px 20px 20px 0px;
 }
 
-#searchIcon
-{
+#searchIcon{
     display: none;
 }
 
@@ -243,26 +231,27 @@ article
 
 /* Boite n°2 */
 
-aside
-{
-    display: flex;
-}
-
 #box2
 {
     width: 400px;
     border: 1px;
     border-radius: 20px;
     background-color: #F2F2F2;
-    justify-content: space-around;
-    padding: 10px;
+    padding: 20px;
     margin-left: 20px;
     padding-right: 70px;
     padding-left: 70px;
 }
 
+#box2cont
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .minibox1
 {
+    width: 100%;
     margin: 25px;
     margin-top: 75px;
     border: 5px white solid;
@@ -363,7 +352,6 @@ footer
     {
         font-size: 30px;
         text-align: center;
-        width: 100%;
     }
 
     /* En-tête */
@@ -396,6 +384,10 @@ footer
 
     /* Box 2 */
 
+    .fa-chart-line
+    {
+        margin-left: 600px;
+    }
     #box2:nth-child(2)
     {
         order: 1;
@@ -415,6 +407,12 @@ footer
         margin: 0px;
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #box2cont
+    {
+        width: 100%;
         flex-wrap: wrap;
     }
 
