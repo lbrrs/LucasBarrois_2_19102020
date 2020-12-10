@@ -251,7 +251,7 @@ article
 }
 .minibox1
 {
-    width: 100%;
+    width: 338px;
     margin: 25px;
     margin-top: 75px;
     border: 5px white solid;
@@ -290,7 +290,7 @@ article
     box-shadow: 1px 1px 10px rgb(160, 160, 160);
 }
 
-.minibox2
+#minibox2
 {
     display: flex;
     flex-direction: column;
@@ -437,6 +437,130 @@ footer
     }
 }
 
+@media screen and (max-width: 770px)
+{
+
+    /* Général */
+    
+    section
+    {
+        flex-wrap: wrap;
+    }
+
+    article
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    aside
+    {
+        max-width: 760px;
+    }
+
+    h2
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* En-tête */
+
+    #filtres li
+    {
+        margin-bottom: 10px;
+    }
+
+    /* Box 1 */
+
+    #box1:nth-child(1)
+    {
+        order: 2;
+        max-width: 1000px;
+        padding: 0px;
+        margin: 0px;
+        background-color: white;
+    }
+
+    .images
+    {
+        max-width: 200px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .minibox1
+    {
+        max-width: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Box 2 */
+
+    .fa-chart-line
+    {
+        margin-left: 400px;
+    }
+
+    #box2:nth-child(2)
+    {
+        order: 1;
+        width: 1000px;
+    }
+
+    #box2:first-child
+    {
+        width: 100%;
+
+    }
+
+    #box2
+    {
+        width: 990px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #box2cont
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .images1
+    {
+        float: none;
+        width: 220px;
+    }
+
+    /* Box 3 */
+
+    .images2
+    {
+        max-width: 275px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Pied de page */
+
+    footer
+    {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #footer1, #footer2, #footer3
+    {
+        padding-right: 40px;
+    }
+}
+
 /* Media Queries Phones */
 
 @media screen and (max-width: 425px)
@@ -475,6 +599,7 @@ footer
     {
         margin-bottom: 0px;
         margin-left: 10px;
+        font-size: 22px;
     }
 
     /* En-tête */
@@ -484,10 +609,16 @@ footer
         flex-direction: column;
     }
 
-    #menu1, #menu2
+    #menu
+    {
+        padding: 0px;
+        border-bottom: 1px solid rgb(190, 190, 190);
+    }
+
+    /* #menu1, #menu2
     {
         border-bottom: 2px solid white;
-    }
+    } */
 
     #menu3
     {
@@ -590,13 +721,14 @@ footer
         padding: 0px;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 0px;
     }
 
     .minibox1
     {
         margin-top: 1px;
         max-height: 155px;
-        max-width: 400px;
+        max-width: 330px;
     }
 
     .fa-chart-line
@@ -607,7 +739,10 @@ footer
 
     .images1
     {
-        margin-right: 5px;
+        margin-right: 15px;
+        max-height: 155px;
+        max-width: 156px;
+        float: left;
     }
 
     .imgMini
@@ -627,7 +762,8 @@ footer
     .images2
     {
         margin: 5px;
-        margin-bottom: 50px 
+        margin-bottom: 50px;
+        margin-left: 45px;
     }
 
     .imgQueries
@@ -643,6 +779,7 @@ footer
         flex-wrap: wrap;
         flex-direction: column;
         padding-left: 20px;
+        font-size: 17px;
     }
 
     .footList
