@@ -50,6 +50,11 @@ h4
     margin-left: 40px;
 }
 
+h5
+{
+    display: none;
+}
+
 
 /* En tete*/
 
@@ -216,6 +221,13 @@ article
     list-style: none;
     display: flex;
     padding-left: 10px;
+    margin-bottom: 2px;
+}
+
+.etoilesbis
+{
+    padding-left: 0px;
+    margin-top: 50px;
 }
 
 .fa-star
@@ -294,6 +306,13 @@ article
 {
     display: flex;
     flex-direction: column;
+}
+
+.description
+{
+    margin-top: 7px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 figcaption
@@ -537,6 +556,12 @@ footer
         width: 220px;
     }
 
+    .etoilesbis
+    {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+
     /* Box 3 */
 
     .images2
@@ -748,6 +773,12 @@ footer
     .imgMini
     {
         display: flex;
+    }
+
+    .etoilesbis
+    {
+        padding-left: 0px;
+        margin-top: 50px;
     }
 
     /* Box 3 */
